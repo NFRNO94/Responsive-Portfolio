@@ -1,0 +1,373 @@
+* {
+    box-sizing: border-box;
+    }
+
+body {
+    background-image: url("../images/darkmatter.png");
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    line-height: 150%;
+    color:lightgray;
+    }
+
+.container {
+    background-image: url(../images/darem.png);
+    border-color: darkred;
+    border-width: 5px;
+    border-style: solid;
+    width: 960px;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 50px;
+    position: center;
+    overflow: auto
+    }
+
+#name {
+    color: lightgray;
+    background-color: black;
+    padding: 23px;
+    margin: -2.5px;
+    margin-left: 227.1px;
+    font-family: Arial;
+    font-weight: bold;
+    float: left;
+    }
+
+.nav {
+    background-color: darkred;
+    padding: 10px;
+    }
+
+ol {
+    padding: 10px;
+    margin-right: 212px;
+    }
+
+li {
+    color: white;
+    list-style-type: none;
+    margin: 5px;
+    float: right;
+    }
+
+a {
+    color: darkgray;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: arial;
+    }
+
+#space1 {
+    margin-right: 10px;
+    }
+
+#space2 {
+    margin-right: 10px;
+    }
+
+#bioimage {
+    width: 400px;
+    height: 380px;
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    border-color: darkred;
+    border-style: solid;
+    border-width: 5px;
+    }
+
+#ptitle {
+    color: lightgray;
+    font-weight: bold;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 0px;
+    width: fit-content;
+    background-color: black;
+    bottom: 0;
+    font-size: 40px;
+    font-family: Arial;
+    border-style: solid darkred;
+    border-width: 2px;
+    }
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    border-color: darkred;
+    }
+
+#bodytext {
+    line-height: 30px;
+    font-style: arial lightgray;
+    font-size: 23px;
+    }
+
+#form {
+        color: lightgray;
+    }
+#messagebox {
+    width: 100%;
+    height: 320px
+    }
+
+#textinput {
+    width: 100%;
+    }
+
+#button {
+    color: lightgray;
+    background-color: darkred;   
+    }   
+
+.ptext {
+    color: lightgray;
+    font-weight: bold;
+    font-style: arial;
+    font-size: 28px;
+    margin: 3px;
+    }
+
+.container2 {
+    position: relative;
+    width: 350px;
+    margin: 10px;
+    border: 2px solid darkred;
+    float: left;
+    }
+
+.container2 .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: lightgray;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    padding-left: 15px;
+    text-align: left;
+    }
+
+.container2 img {
+    width: 100%;
+    height: 250px;
+    }
+
+.container3 {
+    background-image: url(../images/darem.png);
+    border-color: darkred;
+    border-width: 5px;
+    border-style: solid;
+    width: 960px;
+    margin: 10px auto;
+    margin-top: 50px;
+    padding: 15px;
+    margin-bottom: 50px;
+    position: center;
+    overflow: auto;
+    }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: darkred;
+    }
+
+    @media screen and (max-width: 980px) {
+
+        ol {
+            padding: 10px;
+            margin-right: 75px;
+            }
+        #name {
+            margin-left: 85px;
+            font-family: Arial;
+            font-weight: bold;
+            float: left;
+            }
+        .container {
+            width: 80%;
+            }
+        .container3 {
+            width: 80%;
+            }
+        .container2 {
+            width: 42%;
+            height: 250px;
+            }
+            .container2 img {
+            width: 100%;
+            height: 100%;
+            }
+        }
+
+    @media screen and (max-width: 768px) {
+
+        .container {
+            width: 80%;
+            }
+        .container3 {
+            width: 80%;
+            }
+        .container2 {
+            width: 45%;
+            height: 200px;
+            }   
+        .container2 img {
+            width: 100%;
+            height: 100%;
+            }
+        .container2 .content {
+            height: 75px;
+            padding: 2px;
+            font-size: 20px;
+            }
+        #bioimage {
+            width:60%;
+            height: 350px;
+            }
+        #name {
+            margin-left: 65px;
+            font-family: Arial;
+            font-weight: bold;
+            float: left;
+            }
+        ol {
+            padding: 10px;
+            margin-right: 55px;
+            }
+        #bodytext {
+            line-height: 23px;
+            font-size: 20px;
+            }
+        #ptitle {
+            padding: 15px;
+            font-size: 32px;
+            }
+        #messagebox {
+            height: 250px
+            }
+        }
+
+    @media screen and (max-width: 640px) {
+
+        #name {
+            margin: 0px;
+            width: 100%;
+            }
+        #bioimage {
+            width:50%;
+            height: 275px;
+            }
+        #bodytext {
+            line-height: 21px;
+            font-size: 18px;
+            }
+        }
+
+    @media screen and (max-width: 480px) {
+
+        #name {
+            margin: 0px;
+            width: 100%;
+            }
+        ol {
+            padding: 10px;
+            margin-right: 10px;  
+            }
+        .container {
+            width: 100%;
+            }
+        .container3 {
+            width: 100%;
+            }
+        #bioimage {
+            width:50%;
+            height: 250px;
+            }
+        #bodytext {
+            line-height: 21px;
+            font-size: 18px;
+            }
+        #messagebox {
+            height: 225px
+            }
+        .container2 {
+            width: 45%;
+            height: 180px;
+            }
+        .container2 .content {
+            height: 60px;
+            padding: 2px;
+            font-size: 18px;
+            }
+        #ptitle {
+            padding: 12px;
+            font-size: 30px;
+            }
+        a {
+            font-size: 23px;
+            }
+        }
+
+        @media screen and (max-width: 330px) {
+
+        #name {
+            margin-left: 1px;
+            width: 100%;
+            font-size: 48px;
+            }
+        a {
+            font-size: 20px;
+            }
+        #ptitle {
+            padding: 10px;
+            font-size: 28px;
+            }
+        #bioimage {
+            width:45%;
+            height: 125px;
+            }
+        .container {
+            width: 100%;
+            }
+        #bodytext {
+            line-height: 18px;
+            font-style: arial lightgray;
+            font-size: 16px;
+            }
+        .container3 {
+            width: 100%;
+            }
+        .container2 {
+            width: 40%;
+            height: 115px;
+            }
+        .container2 img {
+            width: 100%;
+            height: 100%;
+            }
+        .container2 .content {
+            height: 40px;
+            padding: 1px;
+            font-size: 10px;
+            }
+        #messagebox {
+            height: 200px
+            }
+        }
